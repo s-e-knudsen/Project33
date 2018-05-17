@@ -12,6 +12,7 @@
 		BAB85BDE20AD4BA5004060F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB85BDC20AD4BA5004060F9 /* Main.storyboard */; };
 		BAB85BE020AD4BAC004060F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB85BDF20AD4BAC004060F9 /* Assets.xcassets */; };
 		BAB85BE320AD4BAC004060F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB85BE120AD4BAC004060F9 /* LaunchScreen.storyboard */; };
+		BAB85BEB20AD4D86004060F9 /* RecordWhistleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB85BEA20AD4D86004060F9 /* RecordWhistleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BAB85BDF20AD4BAC004060F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAB85BE220AD4BAC004060F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAB85BE420AD4BAC004060F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB85BEA20AD4D86004060F9 /* RecordWhistleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordWhistleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				BAB85BD820AD4BA5004060F9 /* AppDelegate.swift */,
 				BAB85BDA20AD4BA5004060F9 /* ViewController.swift */,
+				BAB85BEA20AD4D86004060F9 /* RecordWhistleViewController.swift */,
 				BAB85BDC20AD4BA5004060F9 /* Main.storyboard */,
 				BAB85BDF20AD4BAC004060F9 /* Assets.xcassets */,
 				BAB85BE120AD4BAC004060F9 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				BAB85BDB20AD4BA5004060F9 /* ViewController.swift in Sources */,
 				BAB85BD920AD4BA5004060F9 /* AppDelegate.swift in Sources */,
+				BAB85BEB20AD4D86004060F9 /* RecordWhistleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
