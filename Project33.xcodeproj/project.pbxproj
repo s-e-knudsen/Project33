@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BA03F75220B43E4A0017E963 /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA03F75120B43E4A0017E963 /* SubmitViewController.swift */; };
 		BA0ED43F20B5BA6A001AE853 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0ED43E20B5BA6A001AE853 /* ResultsViewController.swift */; };
+		BA0ED44120B6B9F7001AE853 /* MyGenresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0ED44020B6B9F7001AE853 /* MyGenresViewController.swift */; };
 		BA10A0AC20B5906E00722762 /* Whistle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10A0AB20B5906E00722762 /* Whistle.swift */; };
 		BA4642F420B568F30038EEFE /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4642F320B568F30038EEFE /* CloudKit.framework */; };
 		BAB85BD920AD4BA5004060F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB85BD820AD4BA5004060F9 /* AppDelegate.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		BA03F75120B43E4A0017E963 /* SubmitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
 		BA0ED43E20B5BA6A001AE853 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		BA0ED44020B6B9F7001AE853 /* MyGenresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGenresViewController.swift; sourceTree = "<group>"; };
 		BA10A0AB20B5906E00722762 /* Whistle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whistle.swift; sourceTree = "<group>"; };
 		BA4642F120B562AA0038EEFE /* Project33.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Project33.entitlements; sourceTree = "<group>"; };
 		BA4642F320B568F30038EEFE /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
@@ -83,6 +85,7 @@
 				BAB85BD820AD4BA5004060F9 /* AppDelegate.swift */,
 				BAB85BDA20AD4BA5004060F9 /* ViewController.swift */,
 				BA0ED43E20B5BA6A001AE853 /* ResultsViewController.swift */,
+				BA0ED44020B6B9F7001AE853 /* MyGenresViewController.swift */,
 				BA10A0AB20B5906E00722762 /* Whistle.swift */,
 				BAB85BEA20AD4D86004060F9 /* RecordWhistleViewController.swift */,
 				BAE69AFE20AE039900D58577 /* SelectGenreViewController.swift */,
@@ -179,6 +182,7 @@
 				BAE69B0120AE05F900D58577 /* AddCommentsViewController.swift in Sources */,
 				BAB85BD920AD4BA5004060F9 /* AppDelegate.swift in Sources */,
 				BAE69AFF20AE039900D58577 /* SelectGenreViewController.swift in Sources */,
+				BA0ED44120B6B9F7001AE853 /* MyGenresViewController.swift in Sources */,
 				BA10A0AC20B5906E00722762 /* Whistle.swift in Sources */,
 				BA03F75220B43E4A0017E963 /* SubmitViewController.swift in Sources */,
 				BAB85BEB20AD4D86004060F9 /* RecordWhistleViewController.swift in Sources */,
