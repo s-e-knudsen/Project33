@@ -21,7 +21,7 @@ class ViewController: UITableViewController {
         title = "What's that Whistle?"
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addWhistle))
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "Home", style: .plain, target: nil, action: nil)
-        print("do it run")
+      
         
         
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
@@ -124,6 +124,20 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.whistles.count
     }
+ 
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = ResultsViewController()
+        vc.whistle = whistles[indexPath.row]
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+//    func tableView(tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let vc = ResultsViewController()
+//        vc.whistle = whistles[indexPath.row]
+//        print("indexpath.row")
+//        print(indexPath.row)
+//        navigationController?.pushViewController(vc, animated: true)
+//    }
     
 }
 
